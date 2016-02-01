@@ -15,6 +15,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UC", "UC", "{5BF94B8B-FBA5-
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UC_Battue", "UC_Battue\UC_Battue.csproj", "{AEC23FB3-D1ED-407B-9802-9E1358A85B9C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UC_Adherent", "UC_Adherent\UC_Adherent.csproj", "{5D98D53F-3A33-417A-AF2D-B099E869D526}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,11 +35,16 @@ Global
 		{AEC23FB3-D1ED-407B-9802-9E1358A85B9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AEC23FB3-D1ED-407B-9802-9E1358A85B9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AEC23FB3-D1ED-407B-9802-9E1358A85B9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D98D53F-3A33-417A-AF2D-B099E869D526}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D98D53F-3A33-417A-AF2D-B099E869D526}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D98D53F-3A33-417A-AF2D-B099E869D526}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D98D53F-3A33-417A-AF2D-B099E869D526}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{AEC23FB3-D1ED-407B-9802-9E1358A85B9C} = {5BF94B8B-FBA5-40D9-A750-E24402B61A61}
+		{5D98D53F-3A33-417A-AF2D-B099E869D526} = {5BF94B8B-FBA5-40D9-A750-E24402B61A61}
 	EndGlobalSection
 EndGlobal

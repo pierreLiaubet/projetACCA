@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="800" Width="1510">
     <WrapPanel>
-        <ListView x:Name="listView" Width="500" Height="800">
+        <ListView x:Name="listView" Width="150" Height="800">
             <ListView.View>
                 <GridView>
                     <GridViewColumn/>
