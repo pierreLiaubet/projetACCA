@@ -6,8 +6,7 @@ using System.Threading.Tasks;
 
 namespace Métier
 {
-    public class Adhérent //commentai
-        //commentaire
+    public class Adhérent
     {
         private String matricule { get; set; }
         private String nom { get; set; }
@@ -20,8 +19,6 @@ namespace Métier
         private int codePostal { get; set; }
         private String adresse { get; set; }
         private String lieuDit { get; set; }
-
-        //sjkdjskdjskjdlsdlsjdlsjldjsljdl
 
         public Adhérent (string matri, string nom, string prenom, DateTime dateA, DateTime dateD, string motif, int numTel, string ville, int codeP, string adresse, string lieuDit)
         {
