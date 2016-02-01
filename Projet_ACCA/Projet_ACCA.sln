@@ -4,8 +4,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Projet_ACCA", "Projet_ACCA\Projet_ACCA.csproj", "{899DCDF9-A748-4063-B787-BF73154E6146}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6E5BC288-E372-4068-B9E6-51B10D233DF4} = {6E5BC288-E372-4068-B9E6-51B10D233DF4}
+		{AEC23FB3-D1ED-407B-9802-9E1358A85B9C} = {AEC23FB3-D1ED-407B-9802-9E1358A85B9C}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Métier", "Métier\Métier.csproj", "{6E5BC288-E372-4068-B9E6-51B10D233DF4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UC", "UC", "{5BF94B8B-FBA5-40D9-A750-E24402B61A61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UC_Battue", "UC_Battue\UC_Battue.csproj", "{AEC23FB3-D1ED-407B-9802-9E1358A85B9C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,8 +29,15 @@ Global
 		{6E5BC288-E372-4068-B9E6-51B10D233DF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E5BC288-E372-4068-B9E6-51B10D233DF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6E5BC288-E372-4068-B9E6-51B10D233DF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEC23FB3-D1ED-407B-9802-9E1358A85B9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEC23FB3-D1ED-407B-9802-9E1358A85B9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEC23FB3-D1ED-407B-9802-9E1358A85B9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEC23FB3-D1ED-407B-9802-9E1358A85B9C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AEC23FB3-D1ED-407B-9802-9E1358A85B9C} = {5BF94B8B-FBA5-40D9-A750-E24402B61A61}
 	EndGlobalSection
 EndGlobal
