@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="800" Width="1510">
     <WrapPanel>
-        <ListView x:Name="listView" Width="150" Height="800">
+        <ListView x:Name="listView" Width="500" Height="800">
             <ListView.View>
                 <GridView>
                     <GridViewColumn/>
@@ -21,11 +21,11 @@
         </StackPanel>
         <StackPanel Height="800" Width="490">
             <WrapPanel Margin="10" HorizontalAlignment="Center">
-                <TextBlock x:Name="textBlock6" Text="Matricule:" FontSize="22" Width="130"/>
+                <TextBlock x:Name="textBlock6" Text="Matricule:" FontSize="22" Width="150"/>
                 <TextBox x:Name="textBox6" TextWrapping="Wrap"  FontSize="22" Width="150"/>
             </WrapPanel>
             <WrapPanel  HorizontalAlignment="Center">
-                <TextBlock x:Name="textBlock7" FontSize="22" Width="130" Text="Date départ:"/>
+                <TextBlock x:Name="textBlock7" FontSize="22" Width="150" Text="Date adhésion:"/>
                 <TextBox x:Name="textBox7" TextWrapping="Wrap"  FontSize="22" Width="150"/>
             </WrapPanel>
             <TextBlock Text="Informations" FontSize="22" HorizontalAlignment="Center" Margin="20"/>
