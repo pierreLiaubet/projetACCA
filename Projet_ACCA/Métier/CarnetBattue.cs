@@ -15,5 +15,7 @@ namespace Métier
         private ChefBattue chef { get; set; }
         private List<Adhérent> lesAdhérents { get; set; }
 
+
+
     }
 }
