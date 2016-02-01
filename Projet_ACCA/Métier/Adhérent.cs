@@ -20,5 +20,22 @@ namespace Métier
         private String adresse { get; set; }
         private String lieuDit { get; set; }
 
+
+
+        public Adhérent (string matri, string nom, string prenom, DateTime dateA, DateTime dateD, string motif, int numTel, string ville, int codeP, string adresse, string lieuDit)
+        {
+            matricule = matri;
+            this.nom = nom;
+            this.prenom = prenom;
+            this.dateAdhésion = dateA;
+            this.dateDépart = dateD;
+            this.motif = motif;
+            this.numTel = numTel;
+            this.ville = ville;
+            this.codePostal = codeP;
+            this.adresse = adresse;
+            this.lieuDit = lieuDit;
+        }
+
     }
 }
