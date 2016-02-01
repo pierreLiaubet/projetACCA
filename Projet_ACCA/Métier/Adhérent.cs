@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Métier
 {
-    public class Adhérent
+    public class Adhérent //commentaire
     {
         private String matricule { get; set; }
         private String nom { get; set; }
