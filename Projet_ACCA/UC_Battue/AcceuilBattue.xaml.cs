@@ -18,9 +18,9 @@ namespace UC_Battue
     /// <summary>
     /// Logique d'interaction pour MainWindow.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class AcceuilBattue : Window
     {
-        public MainWindow()
+        public AcceuilBattue()
         {
             InitializeComponent();
         }
