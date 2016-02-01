@@ -21,7 +21,7 @@ namespace Métier
         private String adresse { get; set; }
         private String lieuDit { get; set; }
 
-
+        //sjkdjskdjskjdlsdlsjdlsjldjsljdl
 
         public Adhérent (string matri, string nom, string prenom, DateTime dateA, DateTime dateD, string motif, int numTel, string ville, int codeP, string adresse, string lieuDit)
         {
